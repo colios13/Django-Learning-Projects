@@ -3,7 +3,8 @@ drf_course/staticfiles/
 drf_course/mediafiles/
 
 # Byte-compiled / optimized / DLL files
-drf_course/__pycache__/
+drf_course/backend/drf_course/__pycache__/
+drf_course/backend/core/__pycache__/
 drf_course/*.py[cod]
 drf_course/*$py.class
 
@@ -61,10 +62,10 @@ drf_course/*.pot
 
 
 # Django stuff:
-drf_course/*.log
-drf_course/local_settings.py
-drf_course/db.sqlite3
-drf_course/db.sqlite3-journal
+drf_course/backend/*.log
+drf_course/backend/local_settings.py
+drf_course/backend/db.sqlite3
+drf_course/backend/db.sqlite3-journal
 
 # Flask stuff:
 drf_course/instance/
